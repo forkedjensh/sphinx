@@ -21,7 +21,7 @@ Hint: The `sudo` command can be dismissed if the current user belongs to the
 Run
 
 ```
-$ sudo docker run -v $(pwd):/data/ --name doc_sphinx forkedjensh/ubuntu-sphinx
+$ sudo docker run -v $(pwd):/data/ --name doc_sphinx forkedjensh/sphinx
 ```
 
 with any make parameters as needed. Some of the possible parameters are:
@@ -40,7 +40,7 @@ located.
 One possible command would be
 
 ```
-$ sudo docker run -v $(pwd):/data/ --name doc_sphinx forkedjensh/ubuntu-sphinx
+$ sudo docker run -v $(pwd):/data/ --name doc_sphinx forkedjensh/sphinx
 html
 ```
 
